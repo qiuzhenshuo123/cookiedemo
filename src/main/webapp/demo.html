@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="qrious.min.js"></script>
+</head>
+<body>
+	<img id="qrious">
+
+</body>
+<script type="text/javascript">
+		var qr = window.qr = new QRious({
+		    element: document.getElementById('qrious'),
+		    size: 250,
+		    value: 'http://down.admin5.com',
+		    level:'H'
+		  })
+</script>
+</html>
